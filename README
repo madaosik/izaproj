@@ -1,1 +1,20 @@
-# Heslovač - aplikace na správu hesel
+Heslovač - aplikace na správu hesel
+
+Aplikace na motivy zadání Filipa Klembary - Password Holder
+https://gitlab.com/fit-iza/projects/2019/blob/master/Password-Holder.md
+
+Z výše uvedeného zadání nebylo implementováno:
+- spuštění aplikace po autentizaci pomocí Touch ID/Face ID/PINu
+- zobrazeni hesla po autentizaci pomocí Touch ID/Face ID/PINu
+- vyhledávání v záznamech
+
+Uživatel si ukládá přístupové údaje k různým webovým serverům do persistentního úložiště (Realm databáze). Jednotlivé záznamy může dále upravovat a mazat.
+
+Architektura:
+Po spuštění zobrazí ViewController (dědí z TableViewController) TableView, které zobrazuje všechny uložené záznamy v Realm databázi. Rozhodne-li se uživatel přidat nový záznam,
+zobrazí se DetailViewController (v režimu modálního okna) vlastnící statické TableView obsahující příslušná textová pole. Po uložení nového záznamu je modální okno zrušeno a do hlavního TableView
+(ViewController) je přidán nový záznam. Editace záznamu (po kliknutí na příslušný řádek v tabulce) je naopak řešena pomocí přidání nového view na zásobník views, odkud je následně uložením záznamu, případně
+zrušením operace, odstraněn. Poslední operací je mazání záznamu, které lze provést standardním TableView iOS gestem zprava doleva, případně pomocí tlačítka "Upravit" v navigační liště.
+
+Kompletní zdrojové texty včetně Realm knihovny - ke stažení, spuštění souboru .xcworkspace a okamžitému sestavení a spuštění:
+https://github.com/madaosik/izaproj
