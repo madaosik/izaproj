@@ -7,12 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B2F2D12668103E081A5A18E6 /* Pods_passwdhldr_passwdhldrTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2A6B60E423662498DE812F1 /* Pods_passwdhldr_passwdhldrTests.framework */; };
 		C409A7B522AD6332001F23A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C409A7B422AD6332001F23A0 /* AppDelegate.swift */; };
 		C409A7B722AD6332001F23A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C409A7B622AD6332001F23A0 /* ViewController.swift */; };
 		C409A7BA22AD6332001F23A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C409A7B822AD6332001F23A0 /* Main.storyboard */; };
 		C409A7BC22AD6333001F23A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C409A7BB22AD6333001F23A0 /* Assets.xcassets */; };
 		C409A7BF22AD6333001F23A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C409A7BD22AD6333001F23A0 /* LaunchScreen.storyboard */; };
 		C409A7CA22AD6333001F23A0 /* passwdhldrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C409A7C922AD6333001F23A0 /* passwdhldrTests.swift */; };
+		C433853022AD7B470070333C /* Password.swift in Sources */ = {isa = PBXBuildFile; fileRef = C433852F22AD7B470070333C /* Password.swift */; };
+		C433853422AEC7D00070333C /* Password.swift in Sources */ = {isa = PBXBuildFile; fileRef = C433852F22AD7B470070333C /* Password.swift */; };
+		C4BD386B22B01FE3000549A5 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BD386A22B01FE3000549A5 /* DetailViewController.swift */; };
+		C4BD386D22B0C15C000549A5 /* DBmanager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BD386C22B0C15C000549A5 /* DBmanager.swift */; };
+		EEB574406C171C18DCAEA1B4 /* Pods_passwdhldr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DBFCA46490146136DCD9614 /* Pods_passwdhldr.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +32,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E1A3ABC5AA6E998E930407A /* Pods-passwdhldr.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-passwdhldr.release.xcconfig"; path = "Target Support Files/Pods-passwdhldr/Pods-passwdhldr.release.xcconfig"; sourceTree = "<group>"; };
+		1DBFCA46490146136DCD9614 /* Pods_passwdhldr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_passwdhldr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4350E703092409FD01BEC893 /* Pods-passwdhldr.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-passwdhldr.debug.xcconfig"; path = "Target Support Files/Pods-passwdhldr/Pods-passwdhldr.debug.xcconfig"; sourceTree = "<group>"; };
+		8B81668D2EF24D061398725E /* Pods-passwdhldr-passwdhldrTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-passwdhldr-passwdhldrTests.debug.xcconfig"; path = "Target Support Files/Pods-passwdhldr-passwdhldrTests/Pods-passwdhldr-passwdhldrTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C2A6B60E423662498DE812F1 /* Pods_passwdhldr_passwdhldrTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_passwdhldr_passwdhldrTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C409A7B122AD6332001F23A0 /* passwdhldr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = passwdhldr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C409A7B422AD6332001F23A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C409A7B622AD6332001F23A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +47,10 @@
 		C409A7C522AD6333001F23A0 /* passwdhldrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = passwdhldrTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C409A7C922AD6333001F23A0 /* passwdhldrTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = passwdhldrTests.swift; sourceTree = "<group>"; };
 		C409A7CB22AD6333001F23A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C433852F22AD7B470070333C /* Password.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Password.swift; sourceTree = "<group>"; };
+		C4BD386A22B01FE3000549A5 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		C4BD386C22B0C15C000549A5 /* DBmanager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBmanager.swift; sourceTree = "<group>"; };
+		ED4C36BED3FB600F8B064DB8 /* Pods-passwdhldr-passwdhldrTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-passwdhldr-passwdhldrTests.release.xcconfig"; path = "Target Support Files/Pods-passwdhldr-passwdhldrTests/Pods-passwdhldr-passwdhldrTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEB574406C171C18DCAEA1B4 /* Pods_passwdhldr.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +66,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2F2D12668103E081A5A18E6 /* Pods_passwdhldr_passwdhldrTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C12C47E1A66417377D9F0E86 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DBFCA46490146136DCD9614 /* Pods_passwdhldr.framework */,
+				C2A6B60E423662498DE812F1 /* Pods_passwdhldr_passwdhldrTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C409A7A822AD6332001F23A0 = {
 			isa = PBXGroup;
 			children = (
 				C409A7B322AD6332001F23A0 /* passwdhldr */,
 				C409A7C822AD6333001F23A0 /* passwdhldrTests */,
 				C409A7B222AD6332001F23A0 /* Products */,
+				ECD4E3FE8B895C8BB1C2A34E /* Pods */,
+				C12C47E1A66417377D9F0E86 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,12 +105,14 @@
 		C409A7B322AD6332001F23A0 /* passwdhldr */ = {
 			isa = PBXGroup;
 			children = (
+				C433853122AD7BCA0070333C /* Controllers */,
+				C433852E22AD7B220070333C /* Models */,
 				C409A7B422AD6332001F23A0 /* AppDelegate.swift */,
-				C409A7B622AD6332001F23A0 /* ViewController.swift */,
 				C409A7B822AD6332001F23A0 /* Main.storyboard */,
 				C409A7BB22AD6333001F23A0 /* Assets.xcassets */,
 				C409A7BD22AD6333001F23A0 /* LaunchScreen.storyboard */,
 				C409A7C022AD6333001F23A0 /* Info.plist */,
+				C4BD386C22B0C15C000549A5 /* DBmanager.swift */,
 			);
 			path = passwdhldr;
 			sourceTree = "<group>";
@@ -96,6 +126,34 @@
 			path = passwdhldrTests;
 			sourceTree = "<group>";
 		};
+		C433852E22AD7B220070333C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C433852F22AD7B470070333C /* Password.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C433853122AD7BCA0070333C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C409A7B622AD6332001F23A0 /* ViewController.swift */,
+				C4BD386A22B01FE3000549A5 /* DetailViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		ECD4E3FE8B895C8BB1C2A34E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4350E703092409FD01BEC893 /* Pods-passwdhldr.debug.xcconfig */,
+				0E1A3ABC5AA6E998E930407A /* Pods-passwdhldr.release.xcconfig */,
+				8B81668D2EF24D061398725E /* Pods-passwdhldr-passwdhldrTests.debug.xcconfig */,
+				ED4C36BED3FB600F8B064DB8 /* Pods-passwdhldr-passwdhldrTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +161,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C409A7CE22AD6333001F23A0 /* Build configuration list for PBXNativeTarget "passwdhldr" */;
 			buildPhases = (
+				494C14284348BB24D1D57252 /* [CP] Check Pods Manifest.lock */,
 				C409A7AD22AD6332001F23A0 /* Sources */,
 				C409A7AE22AD6332001F23A0 /* Frameworks */,
 				C409A7AF22AD6332001F23A0 /* Resources */,
+				6AAA88ECB30882524B5F09F4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -120,9 +180,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C409A7D122AD6333001F23A0 /* Build configuration list for PBXNativeTarget "passwdhldrTests" */;
 			buildPhases = (
+				9A4089DEAE917FA7A9D919C7 /* [CP] Check Pods Manifest.lock */,
 				C409A7C122AD6333001F23A0 /* Sources */,
 				C409A7C222AD6333001F23A0 /* Frameworks */,
 				C409A7C322AD6333001F23A0 /* Resources */,
+				F85901A8EF129B452F93C52F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -146,9 +208,11 @@
 				TargetAttributes = {
 					C409A7B022AD6332001F23A0 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 					};
 					C409A7C422AD6333001F23A0 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 						TestTargetID = C409A7B022AD6332001F23A0;
 					};
 				};
@@ -192,12 +256,110 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		494C14284348BB24D1D57252 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-passwdhldr-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6AAA88ECB30882524B5F09F4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-passwdhldr/Pods-passwdhldr-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-passwdhldr/Pods-passwdhldr-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A4089DEAE917FA7A9D919C7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-passwdhldr-passwdhldrTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F85901A8EF129B452F93C52F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-passwdhldr-passwdhldrTests/Pods-passwdhldr-passwdhldrTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-passwdhldr-passwdhldrTests/Pods-passwdhldr-passwdhldrTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C409A7AD22AD6332001F23A0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C433853022AD7B470070333C /* Password.swift in Sources */,
+				C4BD386D22B0C15C000549A5 /* DBmanager.swift in Sources */,
 				C409A7B722AD6332001F23A0 /* ViewController.swift in Sources */,
+				C4BD386B22B01FE3000549A5 /* DetailViewController.swift in Sources */,
 				C409A7B522AD6332001F23A0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -206,6 +368,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C433853422AEC7D00070333C /* Password.swift in Sources */,
 				C409A7CA22AD6333001F23A0 /* passwdhldrTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -244,6 +407,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -275,6 +440,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -295,6 +461,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "Heslovač";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -305,6 +472,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -336,6 +505,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -349,6 +519,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "Heslovač";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -358,8 +529,9 @@
 		};
 		C409A7CF22AD6333001F23A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4350E703092409FD01BEC893 /* Pods-passwdhldr.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6DTJGF3D7H;
 				INFOPLIST_FILE = passwdhldr/Info.plist;
@@ -369,15 +541,16 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = cz.vutbr.fit.xlanic04.passwdhldr;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		C409A7D022AD6333001F23A0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E1A3ABC5AA6E998E930407A /* Pods-passwdhldr.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6DTJGF3D7H;
 				INFOPLIST_FILE = passwdhldr/Info.plist;
@@ -387,13 +560,14 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = cz.vutbr.fit.xlanic04.passwdhldr;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 		C409A7D222AD6333001F23A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B81668D2EF24D061398725E /* Pods-passwdhldr-passwdhldrTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -407,7 +581,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = cz.vutbr.fit.xlanic04.passwdhldrTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/passwdhldr.app/passwdhldr";
 			};
@@ -415,6 +589,7 @@
 		};
 		C409A7D322AD6333001F23A0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED4C36BED3FB600F8B064DB8 /* Pods-passwdhldr-passwdhldrTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -428,7 +603,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = cz.vutbr.fit.xlanic04.passwdhldrTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/passwdhldr.app/passwdhldr";
 			};

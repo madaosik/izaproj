@@ -1,0 +1,6 @@
+framework module Pods_passwdhldr_passwdhldrTests {
+  umbrella header "Pods-passwdhldr-passwdhldrTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
