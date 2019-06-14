@@ -16,5 +16,8 @@ zobrazí se DetailViewController (v režimu modálního okna) vlastnící static
 (ViewController) je přidán nový záznam. Editace záznamu (po kliknutí na příslušný řádek v tabulce) je naopak řešena pomocí přidání nového view na zásobník views, odkud je následně uložením záznamu, případně
 zrušením operace, odstraněn. Poslední operací je mazání záznamu, které lze provést standardním TableView iOS gestem zprava doleva, případně pomocí tlačítka "Upravit" v navigační liště.
 
+Spuštění:
+- aplikaci je třeba ve vývojovém prostředí XCode spustit pomocí souboru passwdhldr.xcworkspace
+
 Kompletní zdrojové texty včetně Realm knihovny - ke stažení, spuštění souboru .xcworkspace a okamžitému sestavení a spuštění:
 https://github.com/madaosik/izaproj
